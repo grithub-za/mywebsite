@@ -1,0 +1,71 @@
+body, html{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    background-color: blue;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.headerLinks{
+    color: #ffffff;
+    padding: 10px 0px 12px 10px;
+}
+
+.headerImage{
+    width: 100%;
+}
+
+.headerImageCntr{
+    margin: 0;
+    position: relative;
+}
+
+.headerImageText{
+    color: #ffffff;
+    position: absolute;
+    font-size: 60px;
+
+    top: 151px;
+    left: 170px;
+}
+
+form{
+    padding: 20px
+}
+
+input{
+    padding: 20px;
+    width: 50%;
+    font-size: 18px;
+}
+
+fieldset{
+    margin-top: 40px;
+    border-color: red;
+    border-style: dashed;
+}
+
+legend{
+    font-size: 30px;
+}
+
+.button{
+    padding: 20px;
+    font-size: 20px;
+    background-color: blue;
+    color: #ffffff;
+}
+
+.formInputContainer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

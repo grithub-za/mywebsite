@@ -1,0 +1,30 @@
+
+.chicken{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* this is a hat class */
+.h{
+    padding: 20px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* this is red */
+.redHat{
+    background-color: red;
+}
+
+/* this is blue */
+.blueHat{
+    background-color: blue;
+}
+
+/* this is our home page gallery */
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}

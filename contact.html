@@ -1,1 +1,169 @@
-<h1>Contact us</h1>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" href="styles/global.css" />
+</head>
+
+<body>
+    
+    <header class="header">
+        <nav>
+            <a href="/" title="Learn more about us" class="headerLinks">
+                home
+            </a>
+
+            <a href="/about.html" title="Learn more about us" class="headerLinks">
+                About Us
+            </a>
+
+            <a href="/services.html" title="About our services" class="headerLinks">
+                Services
+            </a> 
+                
+            <a href="/products/index.html" title="Buy online" class="headerLinks">
+                Products
+            </a>
+
+            <a href="/gallery/index.html" title="Photos and Videos" class="headerLinks">
+                Gallery
+            </a>
+
+            <a href="/blog/index.html" title="follow us" class="headerLinks">
+                Blog
+            </a>
+
+            <a href="/contact.html" title="contact our offices" class="headerLinks"> 
+                Contact Us
+            </a>
+        </nav>
+    </header>
+
+    
+    <main>
+        <form>
+            <fieldset>
+                <legend>
+                    Personal Information
+                </legend>
+
+                <p class="formInputContainer">
+                    <label for="firstName">First Name</label>
+                    <input name="first name" type="text" id="firstName" placeholder="Enter in your first name" />
+                </p>
+
+                <p class="formInputContainer">
+                    <label for="lastName">Last Name</label>
+                    <input name="last name" type="text" id="lastName" placeholder="Your Last name" />
+                    <span>Error Text</span>
+                </p>
+
+                <p class="formInputContainer">
+                    <label for="phone">Phone</label>
+                    <input name="phone" disabled type="number" id="phone" placeholder="+27 (###) ###-####" required />
+                </p>
+
+
+                <p class="formInputContainer">
+                    <label for="Password">Password</label>
+                    <input name="phone" type="text" id="Password" minlength="6" maxlength="10" required />
+                </p>
+
+                <p class="formInputContainer">
+                    <label for="Password">Confirm Password</label>
+                    <input name="phone" type="password" id="Password" />
+                </p>
+
+                <p class="formInputContainer">
+                    <label for="email">Email</label>
+                    <input name="email" type="email" id="email" placeholder="your_email@example.com" />
+                </p>
+
+                <p class="formInputContainer">
+                    <label for="email">Do you wan an ice cream?
+                        <input name="ice" type="radio" id="email" value="yes" /> Yes
+                        <input name="ice" type="radio" id="email" value="no" /> No
+                    </label>
+                </p>
+
+                <p class="formInputContainer">
+                    <label for="ice">Do you wan an ice cream too?
+                        <input name="ice" type="checkbox" id="ice" value="yes" /> Yes
+                    </label>
+                </p>
+
+                <p class="formInputContainer">
+                    <label for="email">Tell me about your ice cream?</label>
+                    <textarea rows="10">
+                        10 words or less
+                    </textarea>
+                </p>
+
+
+                <p class="formInputContainer">
+                    <label for="email">How many do you want?</label>
+                    <select>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <button class="button">
+                    Submit
+                </button>
+            </fieldset>
+        </form>
+
+
+        <form action="http://google.com/form-poster" method="post">
+            <fieldset>
+                <legend>
+                    Address
+                </legend>
+
+                <p class="formInputContainer">
+                    <input name="Address 1" type="text" />
+                </p>
+
+                <p class="formInputContainer">
+                    <input name="Address 2" type="text" />
+                </p>
+
+                <p class="formInputContainer">
+                    <input name="City" type="text" />
+                </p>
+
+                <p class="formInputContainer">
+                    <input name="Province" type="text" />
+                </p>
+
+                <p class="formInputContainer">
+                    <input name="Postal" type="text" />
+                </p>
+            </fieldset>
+            
+
+            <fieldset>
+                <button>
+                    Submit
+                </button>
+            </fieldset>
+
+
+
+        </form>
+
+    </main>
+
+    <footer></footer>
+
+</body>
+</html>

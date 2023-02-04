@@ -8,84 +8,18 @@
 
         <title>Hatty Chicken</title>
 
-        <style>
-            body, html{
-                margin: 0;
-            }
-
-            .header{
-                width: 100%;
-                background-color: grey;
-
-                padding-top: 10px;
-                padding-right: 10px;
-                padding-bottom: 10px;
-                padding-left: 10px;
-            }
-
-            .headerLinks{
-                color: #ffffff;
-                padding: 10px 0px 12px 10px;
-            }
-
-            .headerImage{
-                width: 100%;
-            }
-
-            .headerImageCntr{
-                margin: 0;
-                position: relative;
-            }
-
-            .headerImageText{
-                color: #ffffff;
-                position: absolute;
-                font-size: 60px;
-
-                top: 151px;
-                left: 170px;
-            }
-
-            .chicken{
-                display: flex;
-                justify-content: space-between;
-            }
-
-            /* this is a hat class */
-            .h{
-                padding: 20px;
-                width: 100%;
-
-                display: flex;
-                flex-direction: column;
-            }
-
-            /* this is red */
-            .redHat{
-                background-color: red;
-            }
-
-            /* this is blue */
-            .blueHat{
-                background-color: blue;
-            }
-
-            /* this is our home page gallery */
-            .gallery{
-                display: flex;
-                flex-wrap: wrap;
-            }
-        </style>
-
-
-
-
+        <link rel="stylesheet" type="text/css" href="styles/global.css" />
+        <link rel="stylesheet" type="text/css" href="styles/home.css" />
 
     </head>
 
     <body>
         <header class="header">
             <nav>
+                <a href="/" title="Learn more about us" class="headerLinks">
+                    home
+                </a>
+
                 <a href="/about.html" title="Learn more about us" class="headerLinks">
                     About Us
                 </a>
