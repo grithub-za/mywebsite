@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Hatty Chicken</title>
+
+        <style>
+            body, html{
+                margin: 0;
+            }
+
+            .header{
+                width: 100%;
+                background-color: grey;
+
+                padding-top: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+            }
+
+            .headerLinks{
+                color: #ffffff;
+                padding: 10px 0px 12px 10px;
+            }
+
+            .headerImage{
+                width: 100%;
+            }
+
+            .headerImageCntr{
+                margin: 0;
+                position: relative;
+            }
+
+            .headerImageText{
+                color: #ffffff;
+                position: absolute;
+                font-size: 60px;
+
+                top: 151px;
+                left: 170px;
+            }
+
+            .chicken{
+                display: flex;
+                justify-content: space-between;
+            }
+
+            /* this is a hat class */
+            .h{
+                padding: 20px;
+                width: 100%;
+
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* this is red */
+            .redHat{
+                background-color: red;
+            }
+
+            /* this is blue */
+            .blueHat{
+                background-color: blue;
+            }
+
+            /* this is our home page gallery */
+            .gallery{
+                display: flex;
+                flex-wrap: wrap;
+            }
+        </style>
+
+
+
+
+
+    </head>
+
+    <body>
+        <header class="header">
+            <nav>
+                <a href="/about.html" title="Learn more about us" class="headerLinks">
+                    About Us
+                </a>
+
+                <a href="/services.html" title="About our services" class="headerLinks">
+                    Services
+                </a> 
+                    
+                <a href="/products/index.html" title="Buy online" class="headerLinks">
+                    Products
+                </a>
+
+                <a href="/gallery/index.html" title="Photos and Videos" class="headerLinks">
+                    Gallery
+                </a>
+
+                <a href="/blog/index.html" title="follow us" class="headerLinks">
+                    Blog
+                </a>
+
+                <a href="/contact.html" title="contact our offices" class="headerLinks"> 
+                    Contact Us
+                </a>
+            </nav>
+        </header>
+
+
+      
+
+        <figure class="headerImageCntr">
+            <img src="https://dummyimage.com/1000x400/3d3d3d/555.jpg" alt="main image" class="headerImage" />
+            
+            <figcaption class="headerImageText">
+                Some Dummy Text
+            </figcaption>
+        </figure>
+        
+
+
+        <section class="chicken">
+            <!-- this is a hat -->
+            <!-- blue hat -->
+            <article class="h blueHat">
+                <h3>Heading</h3>
+                <p>Some Dummy Text</p>
+                <img src="https://dummyimage.com/100x100/3d3d3d/fff.jpg" />
+            </article>
+
+            <!-- this is a hat -->
+            <!-- red hat -->
+            <article class="h redHat">
+                <h3>Heading</h3>
+                <p>Some Dummy Text</p>
+            </article>
+
+            <!-- this is a hat -->
+            <!-- blue hat -->
+            <article class="h blueHat">
+                <h3>Heading</h3>
+                <p>Some Dummy Text</p>
+
+                <div class="gallery">
+                    <img src="https://dummyimage.com/100x100/3d3d3d/fff.jpg" />
+                    <img src="https://dummyimage.com/100x100/3d3d3d/fff.jpg" />
+                    <img src="https://dummyimage.com/100x100/3d3d3d/fff.jpg" />
+                    <img src="https://dummyimage.com/100x100/3d3d3d/fff.jpg" />
+                </div>
+            </article>
+        </section>
+
+
+     
+    </body>
+</html>
+
