@@ -1,39 +1,44 @@
 body, html{
     margin: 0;
+    padding: 0;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 21px;
 }
 
 .header{
     width: 100%;
-    background-color: blue;
+    background-color: rgba(0,0,0, .5);
+    padding: 20px;
+    position: absolute;
+    z-index: 99;
+   
+}
 
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
+.headerNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .headerLinks{
-    color: #ffffff;
-    padding: 10px 0px 12px 10px;
+    padding: 10px;
+    margin-right: 50px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
 }
 
-.headerImage{
-    width: 100%;
-}
-
-.headerImageCntr{
-    margin: 0;
-    position: relative;
-}
-
-.headerImageText{
-    color: #ffffff;
-    position: absolute;
-    font-size: 60px;
-
-    top: 151px;
-    left: 170px;
-}
 
 form{
     padding: 20px

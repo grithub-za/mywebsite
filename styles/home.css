@@ -1,30 +1,73 @@
+.heroImage{
+    width: 100%;
+}
+
+.heroImageCntr{
+    margin: 0;
+    position: relative;
+}
+
+.heroImageTextCntr{
+    position: absolute;
+    inset: 0 0 0 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;   
+}
+
+
+.heroImageText{
+    color: #222;
+    text-shadow: 1px 1px 30px #fff;
+    font-size: 200px;
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.heroSub{
+    font-size: 50px;
+}
+
 
 .chicken{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 
-/* this is a hat class */
-.h{
-    padding: 20px;
-    width: 100%;
-
+.chickenCntr{
     display: flex;
     flex-direction: column;
+    padding: 40px;
 }
 
-/* this is red */
-.redHat{
-    background-color: red;
-}
-
-/* this is blue */
-.blueHat{
-    background-color: blue;
+.chickenCntr p{
+    line-height: 1.5;
+    margin-bottom: 24px;
 }
 
 /* this is our home page gallery */
 .gallery{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.galleryImage{
+    width: 40%;
+    box-shadow: -6px 5px 20px 0px #555;
+    border: 10px solid #fff;
+    margin-bottom: 40px;
+}
+
+.largeImage{
+    width: 100%;
+    margin: 0
 }
